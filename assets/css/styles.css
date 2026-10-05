@@ -11,3 +11,47 @@ Texto secundario	Gris azulado	#AEB5C6
 Bordes	Gris violeta	#343A55
 Éxito / jugando	Verde suave	#48D597
 */
+
+:root {
+    background-color: #0F111A;
+}
+
+p {
+    color: #F4F6FB;
+}
+
+nav {
+    background-color: #151927;
+    border: 5px solid #343A55;
+    padding: 5px;
+}
+
+
+.welcome {
+    background-color: #151927;
+    border: 5px solid #343A55;
+}
+
+#welcomeMessage {
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    color: #F4F6FB;
+}
+
+h2 {
+    color: #F4F6FB;
+}
+
+button {
+    background-color: #7C5CFF;
+}
+
+button:hover {
+    background-color: #5A3FD1;
+}
