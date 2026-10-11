@@ -1,15 +1,15 @@
-/*Fondo principal	Negro azulado	#0F111A
-Fondo secundario	Azul muy oscuro	#151927
-Cards	Gris azulado oscuro	#1C2133
-Cards hover	Azul violeta oscuro	#252A42
-Morado principal	Violeta	#7C5CFF
-Morado claro	Lavanda	#9A82FF
-Azul principal	Azul eléctrico suave	#4F7CFF
-Azul claro	Celeste azulado	#6EA8FF
-Texto principal	Blanco frío	#F4F6FB
-Texto secundario	Gris azulado	#AEB5C6
-Bordes	Gris violeta	#343A55
-Éxito / jugando	Verde suave	#48D597
+/*Fondo principal	Negro azulado	        #0F111A
+Fondo secundario	Azul muy oscuro	        #151927
+Cards	            Gris azulado oscuro	    #1C2133
+Cards hover	        Azul violeta oscuro	    #252A42
+Morado principal	Violeta	                #7C5CFF
+Morado claro	    Lavanda	                #9A82FF
+Azul principal	    Azul eléctrico suave	#4F7CFF
+Azul claro	        Celeste azulado	        #6EA8FF
+Texto principal	    Blanco frío	            #F4F6FB
+Texto secundario	Gris azulado	        #AEB5C6
+Bordes	            Gris violeta	        #343A55
+Éxito / jugando 	Verde suave	            #48D597
 */
 
 :root {
@@ -23,17 +23,64 @@ p {
 nav {
     background-color: #151927;
     border: 5px solid #343A55;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 24px;
 }
 
 
 .welcome {
     background-color: #151927;
     border: 5px solid #343A55;
+    padding: 10px;
+    border-radius: 24px;
 }
 
 #welcomeMessage {
     font-size: 1.5rem;
+}
+
+.textSize {
+    font-size: 1.2rem
+}
+
+.featuresContainer {
+    background-color:#151927;
+    border: 5px solid #343A55;
+    padding: 10px;
+    border-radius: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.featuresSection {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #151927;
+    padding: 5px;
+    border-radius: 24px;
+}
+
+.feature {
+    margin: 15px;
+    padding: 15px;
+    background-color: #1C2133;
+}
+
+.feature:hover {
+    background-color: #252A42;
+}
+
+.libraryFeature {
+    border: 4px solid #7C5CFF;
+}
+
+.sessionsFeature {
+    border: 4px solid #4F7CFF;
+}
+
+.discoverFeature {
+    border: 4px solid #6EA8FF;
 }
 
 a{
@@ -46,6 +93,10 @@ h1 {
 
 h2 {
     color: #F4F6FB;
+}
+
+h3 {
+    color: #F4F6FB
 }
 
 button {
