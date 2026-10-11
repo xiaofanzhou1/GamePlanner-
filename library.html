@@ -8,6 +8,7 @@
 
     <body>
         <header>
+            <h1>GamePlanner+</h1>
             <nav>
                 <h2>
                     Menu
@@ -15,7 +16,7 @@
                 <a href="index.html">
                     <button>Home</button>
                 </a>
-                <a href="#">
+                <a href="library.html">
                     <button>Library</button>
                 </a>
                 <a href="#">
@@ -30,7 +31,41 @@
             </nav>
         </header>
         <main>
-
+            <h1>My Library</h1>
+            <p class="textSize">Manage and organize your game collections.</p>
+            <section class="featuresContainer">
+                <h2>Your collections</h2>
+                <section class="featuresSection">
+                    <article class="feature libraryFeature">
+                       <h3>Playing Now</h3> 
+                       <p>Games you are currently playing</p>
+                    </article>
+                    <article class="feature sessionsFeature">
+                        <h3>Backlog</h3> 
+                        <p>Games you want to play in the future</p>
+                    </article>
+                    <article class="feature discoverFeature">
+                        <h3>Completed</h3> 
+                        <p>Games you have finished and enjoyed</p>
+                    </article>
+                    <article class="feature whishlistFeature">
+                        <h3>Whishlist</h3> 
+                        <p>Games you are interested in getting</p>
+                    </article>
+                </section>
+            </section>
+            <section class="featuresContainer">
+                <h2>Create a Colletion</h2>
+                <p>Add a new collection to organize your games.</p>
+                <form id="categoryForum">
+                    <label for="gameName" class="forumFont">Name: </label>
+                    <input type="text" id="gameName" name="name" required>
+                    <label for="gameCategory" class="forumFont">Category: </label>
+                    <input type="text" id="gameCategory" name="category" required>
+                    <label for="gameDescription" class="forumFont">Description: </label>
+                    <input type="text" id="gameDescription" name="description">
+                </form>
+            </section>
         </main>
     </body>
 </html>
